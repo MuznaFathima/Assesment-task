@@ -1,0 +1,12 @@
+.home {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .sidebar {
+    flex: 0 0 auto; /* Sidebar takes up its natural width */
+    height: 2000px;
+  }
+  
+  .members-list {
+    flex: 1; /* Tabspage takes up remaining space */
+  }

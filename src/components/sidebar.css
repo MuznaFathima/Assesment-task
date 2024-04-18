@@ -1,0 +1,61 @@
+
+
+  
+  .sidebar {
+    background-color:#6f5cc3;
+    width: 200px;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 1px;
+  }
+  
+  .list li {
+    color: white;
+    margin-bottom: 25px;
+
+  
+    cursor: pointer;  transition: background-color 0.3s ease;
+  }
+  
+ 
+  
+  .list li:hover {
+   background-color: rgba(255, 255, 255, 0.5);
+    color: #fff; 
+
+    
+  }
+  
+  .members-list {
+    flex-grow: 1;
+    
+  }
+
+  .social-icons{
+    position: relative;
+    margin-top: 1500px;
+    display: flex;
+    justify-content: space-between;
+ 
+
+  }
+ 
+  
+  .icon {
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  .icon:hover {
+    cursor: pointer;
+  }
+  
+  .social-icons .icon:hover {
+    color: #fff;
+  }
+  
+  

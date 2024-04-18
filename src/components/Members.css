@@ -1,0 +1,50 @@
+.login-buttons{
+    margin-top: 22px;
+    height: 30px;
+width: 70px;
+font-weight: 600;
+color: #fff;
+background-color:#6f5cc3 ;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.login-buttons:hover{
+    background-color: #fff;
+    color: black;
+}
+img{
+    border-radius: 50%;
+}
+
+.delete-button{
+    margin-top: 22px;
+    height: 30px;
+width: 40px;
+font-weight: 600;
+color: #fff;
+background-color:#6f5cc3 ;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.delete-button:hover{
+    background-color: #fff;
+    color: black;
+}
+.edit{
+    margin-left: 5px;
+    margin-top: 22px;
+    height: 30px;
+width: 40px;
+font-weight: 600;
+color: #fff;
+background-color:#6f5cc3 ;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.edit:hover{
+    background-color: #fff;
+    color: black;  
+}

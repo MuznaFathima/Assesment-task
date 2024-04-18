@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.top-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.buttons-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+}
+.notes-button{
+    margin-top: 22px;
+    height: 40px;
+width: 100px;
+font-weight: 600;
+color: black;
+background-color:#fff ;
+ border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+.notes-button:hover{
+    background-color: #6f5cc3;
+    color: white;
+
+}
+.notes-button:first-child{
+    background-color: #6f5cc3;
+    color: white;
+}
+.button-newnote{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.button-newnote p{
+    color: #6f5cc3;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: -4px;
+}
+
+
+
+.date{
+    color: grey;
+}
